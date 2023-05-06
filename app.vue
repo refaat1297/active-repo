@@ -3,5 +3,7 @@ const { x, y } = useMouse()
 </script>
 
 <template>
-  <div>pos: {{x}}, {{y}}</div>
+  <div class="bg-amber-400 py-4 px-3 rounded">
+    using tailwind css pos: {{x}}, {{y}}
+  </div>
 </template>
