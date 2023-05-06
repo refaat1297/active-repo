@@ -1,5 +1,7 @@
+<script setup lang="ts">
+const { x, y } = useMouse()
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <div>pos: {{x}}, {{y}}</div>
 </template>
